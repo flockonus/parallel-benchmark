@@ -2,7 +2,7 @@ var cluster = require('cluster')
 var numCPUs = require('os').cpus().length - 1
 var RUNS = 50
 
-// this is just to fix an anchtecture problem, because I am lazy
+// this is just to fix an architecture problem, because I am lazy
 RUNS += numCPUs
 
 if( cluster.isMaster ){
