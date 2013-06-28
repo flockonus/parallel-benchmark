@@ -1,3 +1,5 @@
+Try this: https://github.com/audreyt/node-webworker-threads
+
 Wanted to show that node perform lineraly better by making use of more processes by leveraging Cluster for some intensive CPU processing task
 
 So far it seems that one process take all duty to itself while the others slack
