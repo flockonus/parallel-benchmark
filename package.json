@@ -1,0 +1,26 @@
+{
+  "name": "parallel-benchmark",
+  "version": "0.0.0",
+  "description": "trying to get juice of multicores for intense process activities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flockonus/parallel-benchmark.git"
+  },
+  "keywords": [
+    "cluster",
+    "parallel",
+    "benchmark"
+  ],
+  "author": "Fabiano P Soriani <fabianosoriani@gmail.com> (https://github.com/flockonus)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/flockonus/parallel-benchmark/issues"
+  },
+  "dependencies": {
+    "worker-farm": "~0.2.1"
+  }
+}
